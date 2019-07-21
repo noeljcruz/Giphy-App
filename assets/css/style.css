@@ -1,0 +1,42 @@
+
+body {
+   background-image: url("../images/USCGC-James-WMSL-754.jpg");
+   background-position: center fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#container {
+   margin: 100px;
+   font-family: 'Montserrat', sans-serif;
+   border: 1px solid black;
+   padding: 60px;
+   background: rgba(236, 230, 228, 0.74);
+   font-weight: bold;
+}
+
+header {
+   text-align: center;
+}
+
+#timeRemaining {
+   text-align: center;
+}
+
+input[type="radio"] {
+   margin: 5px;
+   width: 15px;
+   height: 15px;
+}
+
+.button {
+   text-align: center;
+}
+
+button {
+   background-color: rgb(137, 185, 187);
+   font-weight: bold;
+   padding: 5px 10px;
+   border: 1px solid black;
+}
+

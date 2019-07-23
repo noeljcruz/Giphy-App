@@ -1,0 +1,30 @@
+
+.container {
+    margin: 0px;
+    max-width: none;
+    padding: 50px;
+}
+
+#sport-form {
+    padding: 50px;
+}
+
+.sport {
+    margin: 5px;
+    padding: 5px;
+    min-width: 100px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgba(140, 165, 235, 0.486);
+    font-weight: bold;
+}
+
+header {
+    margin: auto;
+    font-size: 50px;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}

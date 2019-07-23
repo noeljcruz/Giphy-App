@@ -1,9 +1,23 @@
 
 var sportsArray = ["baseball", "soccer", "football", "dodgeball", "karate", "yoga", "hockey", "running", "dance", "swimming", "golf", "tennis", "nascar", "boxing", "basketball", "rugby", "cycling", "diving", "wrestling", "gymnastics"];
+var newsport = "";
 
-for (var i = 0; i < sportsArray.length; i++) {
-    var sport = sportsArray[i];
-    var sportButton = $("<button>");
-    sportButton.text(sport);
-    $("#button-area").append(sportButton);
+function createButtons() {
+    $("#button-area").empty();
+    for (var i = 0; i < sportsArray.length; i++) {
+        var sportButton = $("<button>");
+        sportButton.addClass("sport");
+        sportButton.attr("data-name", sportsArray[i]);
+        sportButton.text(sportsArray[i]);
+        $("#button-area").append(sportButton);
+    }
 }
+
+createButtons();
+
+$("#add-sport").on("click", function (event) {
+    event.preventDefault();
+    newsport = $("#new-sport").val().trim();
+    sportsArray.push(newsport);
+    createButtons();
+});

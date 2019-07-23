@@ -2,7 +2,7 @@
 .container {
     margin: 0px;
     max-width: none;
-    padding: 50px;
+    padding: 30px 50px;
 }
 
 #sport-form {
@@ -15,6 +15,7 @@
     min-width: 100px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    background-color: white;
 }
 
 body {
@@ -24,7 +25,13 @@ body {
 
 header {
     margin: auto;
-    font-size: 50px;
+    font-size: 60px;
     padding-bottom: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Abril Fatface', cursive;
+    text-decoration: underline;
+}
+
+span {
+    display: inline-block;
+    margin: 10px;
 }

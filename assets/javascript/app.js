@@ -24,7 +24,7 @@ function displayGifs() {
         .then(function (response) {
             var results = response.data;
             for (var i = 0; i < results.length; i++) {
-                var sportDiv = $("<div>");
+                var sportDiv = $("<span>");
                 var p = $("<p>").text("Rating: " + results[i].rating);
                 var sportImage = $("<img>");
                 sportImage.attr("src", results[i].images.fixed_height_still.url);
